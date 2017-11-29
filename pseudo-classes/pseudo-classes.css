@@ -1,0 +1,38 @@
+article {
+    margin: 1.5em;
+}
+/* Add correct styles to remove the bullets and display them as inline elements. */
+li {
+    list-style-type: none;
+}
+
+.inline {
+    display: inline;
+}
+
+/* The three <span> elements should be displayed as block elements with a 1 pixel border and 25 pixel margin on all sides. */
+.block {
+    display: block;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+/* In the article element with the class n-child, add a 1 pixel border around every even numbered section element. */
+article.n-child section:nth-child(2n+0) {
+    border: 1px solid red;
+}
+
+ /* Add a 1 pixel border around every odd numbered section element using nth-of-type  */
+article.n-type section:nth-of-type(2n+1) {
+    border: 1px dotted darkblue;
+}
+
+/* highlight the first section, and the first aside, and the footer */
+article.first-of-type :first-of-type {
+    background-color: yellow;
+}
+
+/* Color every third child red */
+article.three :nth-child(3n+0){
+    color: crimson;
+}

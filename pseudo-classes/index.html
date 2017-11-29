@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="pseudo-classes.css">
+    <title>Pseudo Classes</title>
+</head>
+<body>
+        <!-- Add correct styles to remove the bullets and display them as inline elements.     -->
+    <ul class="top">
+        <li class="inline">1</li>
+        <li class="inline">2</li>
+        <li class="inline">3</li>
+    </ul>
+     
+    <!-- The three <span> elements should be displayed as block elements with a 1 pixel border and 25 pixel margin on all sides. -->
+    <span class="block">X</span>
+    <span class="block">Y</span>
+    <span class="block">Z</span>
+    
+    <!-- In the article element with the class n-child, add a 1 pixel border around every even numbered section element using nth-child  -->
+    <article class="n-child">   
+        <section> A </section>
+        <div> X </div>
+        <section> B </section>
+        <section> C </section>
+        <section> D </section>
+    </article>
+    
+    <!-- Add a 1 pixel border around every odd numbered section element using nth-of-type -->
+    <article class="n-type">
+        <section> A </section>
+        <section> B </section>
+        <aside> Aside </aside>
+        <section> C </section>
+        <section> D </section>
+        <section> E </section>
+    </article>
+    
+    <!-- highlight the first section, and the first aside, and the footer -->
+    <article class="first-of-type">
+        <section> A </section>
+        <section> B </section>
+        <aside> Aside 1 </aside>
+        <section> C </section>
+        <section> D </section>
+        <aside> Aside 2 </aside>
+        <section> E </section>
+        <footer>Footer</footer>
+    </article>
+    
+    <!-- Color every third child red -->
+    <article class="three">
+        <section> A </section>
+        <section> B </section>
+        <aside> Aside </aside>
+        <section> C </section>
+        <section> D </section>
+        <section> E </section>
+    </article>
+</body>
+</html>
