@@ -1,0 +1,1 @@
+NSS exercises: front-end-milestones/1-the-static-web
