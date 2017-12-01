@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #f1f5fd;
+}
+
+.flex-grid {
+    display: flex;
+    margin: 0 2em;
+}
+
+article {
+    border: 1px solid lightblue;
+    flex: 1;
+    justify-content: space-between;
+    margin: .5em;
+    background-color: white;
+}
+    
+img {
+    width: 50%;
+    padding-top: 1em;
+}
+
+h2 {
+    text-align: center;
+    border: 1px dotted lightgray;
+    margin: 0;
+    height: 2em;
+    padding-top: .65em;
+}
+
+.picture {
+    text-align: center;
+    height: 14em;
+}
+
+.twists {
+    width: 67%;
+}
+
+.availability {
+    background-color: darkgray;
+    color: yellow;
+    padding: 2px;
+}
+
+.fix {
+    margin-bottom: 4.7em;
+}
+
+.fix-2 {
+    margin-bottom: 3.51em;
+}
+
+.fix-3 {
+    margin-bottom: 2.3em;
+}
+
+div.description p {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+}
+
+section.details p {
+    font-weight: bolder;
+    margin: 0 2em;
+}
+
+section.details header {
+    margin: 0 .5em;
+    font-weight: bold;
+    font-size: 1.1em;;
+}
+
+footer {
+    font-size: .8em;
+}
